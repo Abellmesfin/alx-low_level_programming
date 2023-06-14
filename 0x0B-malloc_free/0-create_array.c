@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * create_array -prints an array.
@@ -14,7 +16,8 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 		return (NULL);
-	memo = size * malloc(sizeof(c)); /*define values through malloc*/
+	memo = malloc(sizeof(c) * size); /*define values through malloc*/
+
 	if (memo == NULL)
 		return (NULL);
 	for (poin = 0; poin < size; poin++)
