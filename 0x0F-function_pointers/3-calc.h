@@ -15,14 +15,14 @@
 typedef struct op
 {
 	char *op;
-	int (*f)(int x, int y);
+	int (*f)(int a, int b);
 } op_t;
 
-int op_add(int x, int y);
-int op_sub(int x, int y);
-int op_mul(int x, int y);
-int op_div(int x, int y);
-int op_rem(int x, int y);
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif

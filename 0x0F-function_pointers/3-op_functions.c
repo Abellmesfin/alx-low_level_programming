@@ -1,61 +1,61 @@
 #include "3-calc.h"
 
 /**
- * op_add - function for sum of two integers
- * @x: first integer
- * @y: second integer
+ * op_add - calculates the sum of two integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: always 0
+ * Return: sum of a and b
  */
-int op_add(int x, int y)
+int op_add(int a, int b)
 {
-	return (x + y);
+	return (a + b);
 }
 
 /**
- * op_sub - function for difference of two integers
- * @x: first integer
- * @y: second integer
+ * op_sub - calculates the difference of two integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: always 0
+ * Return: difference of a and b
  */
-int op_sub(int x, int y)
+int op_sub(int a, int b)
 {
-	return (x - y);
+	return (a - b);
 }
 
 /**
- * op_mul - function for product of two integers
- * @x: first integer
- * @y: second integer
+ * op_mul - calculates the product of two integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: always 0
+ * Return: product of a and b
  */
-int op_mul(int x, int y)
+int op_mul(int a, int b)
 {
-	return (x * y);
+	return (a * b);
 }
 
 /**
- * op_div - function for division of two integers
- * @x: first integer
- * @y: second integer
+ * op_div - calculates the division of two integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: always 0
+ * Return: result of the division of a and b
  */
-int op_div(int x, int y)
+int op_div(int a, int b)
 {
-	return (x / y);
+	return (a / b);
 }
 
 /**
- * op_rem - function for remainder of the division of two integers
- * @x: first integer
- * @y: second integer
+ * op_mod - calculates the remainder of the division of two integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: always 0
+ * Return: remainder of a divided b
  */
-int op_rem(int x, int y)
+int op_mod(int a, int b)
 {
-	return (x % y);
+	return (a % b);
 }
