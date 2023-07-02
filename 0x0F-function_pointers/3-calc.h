@@ -1,16 +1,16 @@
-#ifndef CALC_H
-#define CALC_H
+#ifndef CALC_A
+#define CALC_A
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 /**
- * struct op - function for Struct operator
+ * struct op - function for Struct op
  * @op: operator
- * @f: function structure
+ * @f: function
  *
- * Return: always 0
+ * Return: Always 0
  */
 typedef struct op
 {
